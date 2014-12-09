@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62660FEC1A373501007784C3 /* Detail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62660FEB1A373501007784C3 /* Detail2ViewController.swift */; };
 		6278FF3A1A2A026000903558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278FF391A2A026000903558 /* AppDelegate.swift */; };
 		6278FF3C1A2A026000903558 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278FF3B1A2A026000903558 /* MasterViewController.swift */; };
-		6278FF3E1A2A026000903558 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278FF3D1A2A026000903558 /* DetailViewController.swift */; };
+		6278FF3E1A2A026000903558 /* Detail1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6278FF3D1A2A026000903558 /* Detail1ViewController.swift */; };
 		6278FF411A2A026000903558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6278FF3F1A2A026000903558 /* Main.storyboard */; };
 		6278FF431A2A026000903558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6278FF421A2A026000903558 /* Images.xcassets */; };
 		6278FF461A2A026000903558 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6278FF441A2A026000903558 /* LaunchScreen.xib */; };
@@ -27,11 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62660FEB1A373501007784C3 /* Detail2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail2ViewController.swift; sourceTree = "<group>"; };
 		6278FF341A2A026000903558 /* gestureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6278FF381A2A026000903558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6278FF391A2A026000903558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6278FF3B1A2A026000903558 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		6278FF3D1A2A026000903558 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6278FF3D1A2A026000903558 /* Detail1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail1ViewController.swift; sourceTree = "<group>"; };
 		6278FF401A2A026000903558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6278FF421A2A026000903558 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6278FF451A2A026000903558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,7 +83,8 @@
 			children = (
 				6278FF391A2A026000903558 /* AppDelegate.swift */,
 				6278FF3B1A2A026000903558 /* MasterViewController.swift */,
-				6278FF3D1A2A026000903558 /* DetailViewController.swift */,
+				6278FF3D1A2A026000903558 /* Detail1ViewController.swift */,
+				62660FEB1A373501007784C3 /* Detail2ViewController.swift */,
 				6278FF3F1A2A026000903558 /* Main.storyboard */,
 				6278FF421A2A026000903558 /* Images.xcassets */,
 				6278FF441A2A026000903558 /* LaunchScreen.xib */,
@@ -215,8 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6278FF3E1A2A026000903558 /* DetailViewController.swift in Sources */,
+				6278FF3E1A2A026000903558 /* Detail1ViewController.swift in Sources */,
 				6278FF3C1A2A026000903558 /* MasterViewController.swift in Sources */,
+				62660FEC1A373501007784C3 /* Detail2ViewController.swift in Sources */,
 				6278FF3A1A2A026000903558 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				6278FF571A2A026000903558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6278FF581A2A026000903558 /* Build configuration list for PBXNativeTarget "gestureSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				6278FF5A1A2A026000903558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
